@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.article {
+  padding: 0rem 3rem;
+}
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10rem;
+  // grid-gap: 5rem;
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    grid-gap: 0rem;
+  }
+}
+.img__country {
+  max-width: 48rem;
+  @include respond(tab-port) {
+    padding: 0rem 3rem;
+  }
+}
+
+figcaption {
+  background-color: #ffffff;
+  color: $color-primary;
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  height: 60px;
+  width: 400px;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+
+figure {
+  position: relative;
+}
+
+.pargraph {
+  padding-top: 7rem;
+  @include respond(tab-port) {
+    padding-top: 3rem;
+  }
+}

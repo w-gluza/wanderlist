@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+
+.header {
+  padding: 1rem 15rem 0rem 15rem;
+  @include respond(tab-port) {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+}

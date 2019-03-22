@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.main {
+  padding: 5rem 15rem;
+  @include respond(tab-port) {
+    padding: 5rem 0rem;
+  }
+}

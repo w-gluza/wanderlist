@@ -1,0 +1,18 @@
+<section class="section">
+  <figure>
+    <img class="img__country" src="{{ data.img }}" alt="{{ data.imgAlt }}" />
+    <figcaption>{{ data.country }}</figcaption>
+  </figure>
+
+  <article class="article">
+    <h4>{{ data.continent }}</h4>
+    <h2>{{ data.country }}</h2>
+    <app-rating
+      class="rating-wraper"
+      [rating-value]="data.rating"
+      [numOfReviews]="data.numOfReviews"
+    >
+    </app-rating>
+    <p class="pargraph">{{ data.description }}</p>
+  </article>
+</section>

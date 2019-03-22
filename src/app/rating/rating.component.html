@@ -1,0 +1,36 @@
+<fa-icon
+  [icon]="faMapMarkerAlt"
+  [class.rating-icon-empty]="rating < 1"
+  [class.rating-icon]="rating >= 1"
+  (click)="onClick(1)"
+>
+</fa-icon>
+<fa-icon
+  [icon]="faMapMarkerAlt"
+  [class.rating-icon-empty]="rating < 2"
+  [class.rating-icon]="rating >= 2"
+  (click)="onClick(2)"
+>
+</fa-icon>
+<fa-icon
+  [icon]="faMapMarkerAlt"
+  [class.rating-icon-empty]="rating < 3"
+  [class.rating-icon]="rating >= 3"
+  (click)="onClick(3)"
+>
+</fa-icon>
+<fa-icon
+  [icon]="faMapMarkerAlt"
+  [class.rating-icon-empty]="rating < 4"
+  [class.rating-icon]="rating >= 4"
+  (click)="onClick(4)"
+>
+</fa-icon>
+<fa-icon
+  [icon]="faMapMarkerAlt"
+  [class.rating-icon-empty]="rating < 5"
+  [class.rating-icon]="rating >= 5"
+  (click)="onClick(5)"
+>
+</fa-icon>
+{{ numOfReviews }}

@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.rating-wraper {
+  height: 5rem;
+}
+.rating-icon,
+.rating-icon-empty {
+  font-size: 3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.rating-icon-empty {
+  color: $color-grey;
+}
+
+.rating-icon {
+  color: $color-primary;
+}

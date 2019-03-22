@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/variables';
+
+@import './app/app.component.scss';
+@import './app/card/card.component.scss';
+@import './app/cards/cards.component.scss';
+@import './app/rating/rating.component.scss';
